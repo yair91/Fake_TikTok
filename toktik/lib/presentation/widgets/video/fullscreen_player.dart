@@ -56,7 +56,7 @@ class _FullScreenPlayerState extends State<FullScreenPlayer> {
             child: Stack(children: [
               VideoPlayer(controller),
               VideoBackground(
-                stops: [0.8, 1.0],
+                stops: const [0.8, 1.0],
               ),
               Positioned(
                 bottom: 50,
